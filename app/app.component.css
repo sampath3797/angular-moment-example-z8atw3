@@ -8,15 +8,11 @@ td {
   border-collapse: collapse;
 }
 
-/* table {
-  overflow: hidden;
-} */
-
-.outer {
+/* .outer {
   width: 500px;
-  overflow: auto;
+  overflow: scroll;
   height: 200px;
-}
+} */
 
 .usrHead {
   top: 0;
@@ -51,20 +47,16 @@ td {
   background-color: gray;
 }
 
-/* .eachEvent:hover {
-  border: 1px solid red;
-} */
-
-tr:hover,
+/* tr:hover,
 th:hover {
   border: 3px solid red;
-}
+} */
 
 /* td,
 th {
   position: relative;
 } */
-/* td:hover::after,
+
 th:hover::after {
   content: "";
   position: absolute;
@@ -74,4 +66,8 @@ th:hover::after {
   height: 10000px;
   width: 100%;
   z-index: -1;
-} */
+}
+
+tr:hover {
+  border: 3px solid red;
+}
