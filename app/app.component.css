@@ -8,20 +8,63 @@ td {
   border-collapse: collapse;
 }
 
-table {
+/* table {
   overflow: hidden;
+} */
+
+.outer {
+  width: 500px;
+  overflow: auto;
+  height: 200px;
 }
+
+.usrHead {
+  top: 0;
+  left: 0;
+  position: sticky;
+  position: -webkit-sticky; /* Safari */
+  z-index: 20;
+  background-color: gray;
+}
+
+.usrDtHead {
+  top: 40px;
+  position: sticky;
+  position: -webkit-sticky; /* Safari */
+  z-index: 10;
+  background-color: gray;
+}
+
+.usrMthHead {
+  top: 0;
+  position: sticky;
+  position: -webkit-sticky; /* Safari */
+  z-index: 5;
+  background-color: gray;
+}
+
+.echUsr {
+  left: 0;
+  position: sticky;
+  position: -webkit-sticky; /* Safari */
+  z-index: 10;
+  background-color: gray;
+}
+
+/* .eachEvent:hover {
+  border: 1px solid red;
+} */
 
 tr:hover,
 th:hover {
   border: 3px solid red;
 }
 
-td,
+/* td,
 th {
   position: relative;
-}
-td:hover::after,
+} */
+/* td:hover::after,
 th:hover::after {
   content: "";
   position: absolute;
@@ -31,4 +74,4 @@ th:hover::after {
   height: 10000px;
   width: 100%;
   z-index: -1;
-}
+} */
