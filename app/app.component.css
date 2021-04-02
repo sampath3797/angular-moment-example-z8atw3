@@ -20,7 +20,7 @@ td {
   position: sticky;
   position: -webkit-sticky; /* Safari */
   z-index: 20;
-  background-color: gray;
+  background-color: rgb(228, 236, 234);
 }
 
 .usrDtHead {
@@ -28,7 +28,7 @@ td {
   position: sticky;
   position: -webkit-sticky; /* Safari */
   z-index: 10;
-  background-color: gray;
+  background-color: rgb(228, 236, 234);
 }
 
 .usrMthHead {
@@ -36,7 +36,7 @@ td {
   position: sticky;
   position: -webkit-sticky; /* Safari */
   z-index: 5;
-  background-color: gray;
+  background-color: rgb(228, 236, 234);
 }
 
 .echUsr {
@@ -44,7 +44,7 @@ td {
   position: sticky;
   position: -webkit-sticky; /* Safari */
   z-index: 10;
-  background-color: gray;
+  background-color: rgb(228, 236, 234);
 }
 
 /* tr:hover,
